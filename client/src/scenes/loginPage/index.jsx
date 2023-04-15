@@ -1,5 +1,5 @@
 import { Box, Typography, useTheme, useMediaQuery } from '@mui/material';
-import Form from './Form';
+// import Form from './Form';
 
 const LoginPage = () => {
 	const theme = useTheme();
@@ -13,7 +13,7 @@ const LoginPage = () => {
 				textAlign='center'
 			>
 				<Typography fontWeight='bold' fontSize='32px' color='primary'>
-					Sociopedia
+					BookFace
 				</Typography>
 			</Box>
 
@@ -25,9 +25,9 @@ const LoginPage = () => {
 				backgroundColor={theme.palette.background.alt}
 			>
 				<Typography fontWeight='500' variant='h5' sx={{ mb: '1.5rem' }}>
-					Welcome to Socipedia, the Social Media for Sociopaths!
+					Welcome to BookFace, the Social Media like Facbook ...but better!
 				</Typography>
-				<Form />
+				{/* <Form /> */}
 			</Box>
 		</Box>
 	);
